@@ -1,19 +1,10 @@
-import React from 'react';
+import React from "react";
 
 export const SqlServerIcon = (props) => (
-  <svg
-    viewBox="0 0 128 128"
-    width="1em"
-    height="1em"
-    {...props}
-  >
-    <path
-      fill="#CC292B"
-      d="M106.3 14H21.7C17.4 14 14 17.4 14 21.7v84.6c0 4.3 3.4 7.7 7.7 7.7h84.6c4.3 0 7.7-3.4 7.7-7.7V21.7c0-4.3-3.4-7.7-7.7-7.7z"
-    />
-    <path
-      fill="#FFF"
-      d="M34.3 93.3c-2 .1-3.6-1.4-3.7-3.4V38.1c.1-2 1.7-3.5 3.7-3.4H50c9.1 0 14.6 4.6 14.6 12.3 0 5-2.6 8.9-7.3 10.7l9.4 20.3c.7 1.4-.2 3.1-1.8 3.2h-7.7c-1.2 0-2.3-.7-2.8-1.7L36.3 62.4h-5.7v15.8c0 1.9-1.5 3.5-3.4 3.5h-2.9v11.6h10zm0-41.2h15.2c4.4 0 6.9-2 6.9-5.6s-2.5-5.6-6.9-5.6H34.3v11.2zm45.9 41.2c-5.8 0-10.3-4.3-10.5-10.1V38.1c.2-5.8 4.7-10.1 10.5-10.1h21.4V38H80.2c-1.7 0-3.1 1.4-3.1 3.1v42.4c0 1.7 1.4 3.1 3.1 3.1h21.4v10.1H80.2z"
-    />
-  </svg>
+  <img
+  src="https://msicons.com/icons/databases/Microsoft_SQL_Server_2025_icon.svg"
+  alt="Microsoft SQL Server 2025 icon"
+  width={35}
+  height={40}
+/>
 );

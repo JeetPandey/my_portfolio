@@ -28,6 +28,10 @@ import {
   SiPostman,
   SiVite,
   SiFigma,
+  SiRedux,
+  SiDotnet,
+  SiBootstrap,
+  SiJquery,
 } from "react-icons/si";
 import { SqlServerIcon } from "../utils/SqlServerLogo.jsx"
 
@@ -45,9 +49,33 @@ const technologies = [
     category: "Backend",
   },
   {
+    name: "ASP.NET",
+    icon: SiDotnet,
+    color: "#512BD4",
+    category: "Backend",
+  },
+  {
+    name: "ASP.NET Web API",
+    icon: SiDotnet,
+    color: "#7952B3",
+    category: "Backend",
+  },
+  {
+    name: "Entity Framework",
+    icon: SiDotnet,
+    color: "#8A70D6",
+    category: "Backend",
+  },
+  {
     name: "React",
     icon: FaReact,
     color: "#61DAFB",
+    category: "Frontend",
+  },
+  {
+    name: "Redux",
+    icon: SiRedux,
+    color: "#764ABC",
     category: "Frontend",
   },
   {
@@ -72,6 +100,18 @@ const technologies = [
     name: "Tailwind CSS",
     icon: SiTailwindcss,
     color: "#06B6D4",
+    category: "Frontend",
+  },
+  {
+    name: "Bootstrap",
+    icon: SiBootstrap,
+    color: "#7952B3",
+    category: "Frontend",
+  },
+  {
+    name: "jQuery",
+    icon: SiJquery,
+    color: "#0769AD",
     category: "Frontend",
   },
   {
