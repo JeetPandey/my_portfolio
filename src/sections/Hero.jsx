@@ -6,7 +6,7 @@ import heroImage from "../../src/assests/projects/hero-bg.jpg"
 import Button from "../components/Button"
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton.jsx";
 function Hero() {
-  const skills = ["React", "Python", "JavaScript", "Tailwind CSS", "Redux", "Bootstrap", "Django", "Django Rest Framework", "SQL Server", "MySql", "Git", "Git Hub", "Web Design", "ASP .NET", ".NET Web API", ".NET Core"]
+  const skills = ["React", "Python", "JavaScript","Django", "Django Rest Framework","Tailwind CSS", "Redux", "Bootstrap",  "SQL Server", "MySql", "Git", "Git Hub", "Web Design", "ASP .NET", ".NET Web API", ".NET Core"]
   return (
     <section className='relative min-h-screen flex items-center overflow-hidden '>
       {/* Background */}
